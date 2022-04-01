@@ -1,0 +1,17 @@
+Y:\уёба\комп_графика\prakt5\prog\prog\bin\Debug\prog.exe.config
+Y:\уёба\комп_графика\prakt5\prog\prog\bin\Debug\prog.exe
+Y:\уёба\комп_графика\prakt5\prog\prog\bin\Debug\prog.pdb
+Y:\уёба\комп_графика\prakt5\prog\prog\bin\Debug\Tao.FreeGlut.dll
+Y:\уёба\комп_графика\prakt5\prog\prog\bin\Debug\Tao.OpenGl.dll
+Y:\уёба\комп_графика\prakt5\prog\prog\bin\Debug\Tao.Platform.Windows.dll
+Y:\уёба\комп_графика\prakt5\prog\prog\bin\Debug\Tao.FreeGlut.xml
+Y:\уёба\комп_графика\prakt5\prog\prog\bin\Debug\Tao.OpenGl.xml
+Y:\уёба\комп_графика\prakt5\prog\prog\bin\Debug\Tao.Platform.Windows.xml
+Y:\уёба\комп_графика\prakt5\prog\prog\obj\Debug\prog.csproj.AssemblyReference.cache
+Y:\уёба\комп_графика\prakt5\prog\prog\obj\Debug\prog.Form1.resources
+Y:\уёба\комп_графика\prakt5\prog\prog\obj\Debug\prog.Properties.Resources.resources
+Y:\уёба\комп_графика\prakt5\prog\prog\obj\Debug\prog.csproj.GenerateResource.cache
+Y:\уёба\комп_графика\prakt5\prog\prog\obj\Debug\prog.csproj.CoreCompileInputs.cache
+Y:\уёба\комп_графика\prakt5\prog\prog\obj\Debug\prog.csproj.CopyComplete
+Y:\уёба\комп_графика\prakt5\prog\prog\obj\Debug\prog.exe
+Y:\уёба\комп_графика\prakt5\prog\prog\obj\Debug\prog.pdb

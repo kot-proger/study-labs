@@ -1,0 +1,17 @@
+Y:\уёба\комп_графика\lab7\lab\lab\bin\Debug\lab.exe.config
+Y:\уёба\комп_графика\lab7\lab\lab\bin\Debug\lab.exe
+Y:\уёба\комп_графика\lab7\lab\lab\bin\Debug\lab.pdb
+Y:\уёба\комп_графика\lab7\lab\lab\bin\Debug\Tao.FreeGlut.dll
+Y:\уёба\комп_графика\lab7\lab\lab\bin\Debug\Tao.OpenGl.dll
+Y:\уёба\комп_графика\lab7\lab\lab\bin\Debug\Tao.Platform.Windows.dll
+Y:\уёба\комп_графика\lab7\lab\lab\bin\Debug\Tao.FreeGlut.xml
+Y:\уёба\комп_графика\lab7\lab\lab\bin\Debug\Tao.OpenGl.xml
+Y:\уёба\комп_графика\lab7\lab\lab\bin\Debug\Tao.Platform.Windows.xml
+Y:\уёба\комп_графика\lab7\lab\lab\obj\Debug\lab.csproj.AssemblyReference.cache
+Y:\уёба\комп_графика\lab7\lab\lab\obj\Debug\lab.Form1.resources
+Y:\уёба\комп_графика\lab7\lab\lab\obj\Debug\lab.Properties.Resources.resources
+Y:\уёба\комп_графика\lab7\lab\lab\obj\Debug\lab.csproj.GenerateResource.cache
+Y:\уёба\комп_графика\lab7\lab\lab\obj\Debug\lab.csproj.CoreCompileInputs.cache
+Y:\уёба\комп_графика\lab7\lab\lab\obj\Debug\lab.csproj.CopyComplete
+Y:\уёба\комп_графика\lab7\lab\lab\obj\Debug\lab.exe
+Y:\уёба\комп_графика\lab7\lab\lab\obj\Debug\lab.pdb

@@ -1,0 +1,210 @@
+/*==============================================================*/
+/* DBMS name:      Microsoft Access 2007                        */
+/* Created on:     30.04.2021 13:35:54                          */
+/*==============================================================*/
+
+
+alter table Combo_amp
+   drop constraint FK_COMBO_AM_TYPES_OF__GUITAR_T;
+
+alter table Guitar
+   drop constraint "FK_GUITAR_GUITAR - _GUITAR_T";
+
+alter table Guitar_cabinet
+   drop constraint "FK_GUITAR_C_AMPS - CA_GUITAR_A";
+
+alter table Strings
+   drop constraint FK_STRINGS_TYPES_OF__GUITAR_T;
+
+alter table guitar_set
+   drop constraint FK_GUITAR_S_RELATIONS_GUITAR_P;
+
+alter table guitar_set
+   drop constraint FK_GUITAR_S_COMBO_AMP_COMBO_AM;
+
+alter table guitar_set
+   drop constraint FK_GUITAR_S_GUITAR_NA_GUITAR;
+
+alter table guitar_set
+   drop constraint FK_GUITAR_S_NAME_OF_A_ACCESSOR;
+
+alter table guitar_set
+   drop constraint FK_GUITAR_S_NAME_OF_A_GUITAR_A;
+
+alter table guitar_set
+   drop constraint FK_GUITAR_S_NAME_OF_C_GUITAR_C;
+
+drop table Accessory;
+
+drop table Combo_amp;
+
+drop table Guitar;
+
+drop table Guitar_amp;
+
+drop table Guitar_cabinet;
+
+drop table Guitar_pedal;
+
+drop table Guitar_type;
+
+drop table Strings;
+
+drop table guitar_set;
+
+/*==============================================================*/
+/* Table: Accessory                                             */
+/*==============================================================*/
+create table Accessory
+(
+    accessory_code       INTEGER         not null,
+    name_of_accessory    NOTE            not null,
+    accessory_manufacturer NOTE            not null,
+constraint PK_ACCESSORY primary key (accessory_code)
+);
+
+/*==============================================================*/
+/* Table: Combo_amp                                             */
+/*==============================================================*/
+create table Combo_amp
+(
+    combo_amp_code       INTEGER         not null,
+    guitar_type_code     INTEGER,
+    combo_amp_name       NOTE            not null,
+    power_of_combo       INTEGER         not null,
+    type_guitar          INTEGER         not null,
+constraint PK_COMBO_AMP primary key (combo_amp_code)
+);
+
+/*==============================================================*/
+/* Table: Guitar                                                */
+/*==============================================================*/
+create table Guitar
+(
+    guitar_code          INTEGER         not null,
+    guitar_type_code     INTEGER,
+    guitar_name          NOTE            not null,
+    num_of_strings       INTEGER         not null,
+    guitar_type          INTEGER         not null,
+constraint PK_GUITAR primary key (guitar_code)
+);
+
+/*==============================================================*/
+/* Table: Guitar_amp                                            */
+/*==============================================================*/
+create table Guitar_amp
+(
+    guitar_amp_code      INTEGER         not null,
+    name_of_amp          NOTE            not null,
+    cabinet_resistanse   INTEGER         not null,
+constraint PK_GUITAR_AMP primary key (cabinet_resistanse)
+);
+
+/*==============================================================*/
+/* Table: Guitar_cabinet                                        */
+/*==============================================================*/
+create table Guitar_cabinet
+(
+    code_of_cabinet      INTEGER         not null,
+    name_of_cabinet      NOTE            not null,
+    speaker_resistance   INTEGER         not null,
+    cabinet_resistanse   INTEGER,
+constraint PK_GUITAR_CABINET primary key (speaker_resistance)
+);
+
+/*==============================================================*/
+/* Table: Guitar_pedal                                          */
+/*==============================================================*/
+create table Guitar_pedal
+(
+    pedal_code           INTEGER         not null,
+    name_of_device       NOTE            not null,
+    name_of_effect       NOTE            not null,
+constraint PK_GUITAR_PEDAL primary key (pedal_code)
+);
+
+/*==============================================================*/
+/* Table: Guitar_type                                           */
+/*==============================================================*/
+create table Guitar_type
+(
+    guitar_type_code     INTEGER         not null,
+    name_of_guitar_type  NOTE            not null,
+constraint PK_GUITAR_TYPE primary key (guitar_type_code)
+);
+
+/*==============================================================*/
+/* Table: Strings                                               */
+/*==============================================================*/
+create table Strings
+(
+    strings_set_code     INTEGER         not null,
+    guitar_type_code     INTEGER,
+    "strings_name+"      NOTE            not null,
+    numb_of_strings_in_set INTEGER         not null,
+    type_of_guitar       INTEGER         not null,
+    calibr               INTEGER         not null,
+constraint PK_STRINGS primary key (strings_set_code)
+);
+
+/*==============================================================*/
+/* Table: guitar_set                                            */
+/*==============================================================*/
+create table guitar_set
+(
+    set_code             INTEGER         not null,
+    combo_amp_code       INTEGER,
+    pedal_code           INTEGER,
+    accessory_code       INTEGER,
+    cabinet_resistanse   INTEGER,
+    speaker_resistance   INTEGER,
+    guitar_code          INTEGER,
+    name_of_guitar       NOTE            not null,
+    name_of_combo_amp    NOTE,
+    amp_name             NOTE,
+    cabinet_name         NOTE,
+    name_of_pedal        NOTE            not null,
+    accessory_name       NOTE            not null,
+constraint PK_GUITAR_SET primary key (set_code)
+);
+
+alter table Combo_amp
+   add constraint FK_COMBO_AM_TYPES_OF__GUITAR_T foreign key (guitar_type_code)
+      references Guitar_type (guitar_type_code);
+
+alter table Guitar
+   add constraint "FK_GUITAR_GUITAR - _GUITAR_T" foreign key (guitar_type_code)
+      references Guitar_type (guitar_type_code);
+
+alter table Guitar_cabinet
+   add constraint "FK_GUITAR_C_AMPS - CA_GUITAR_A" foreign key (cabinet_resistanse)
+      references Guitar_amp (cabinet_resistanse);
+
+alter table Strings
+   add constraint FK_STRINGS_TYPES_OF__GUITAR_T foreign key (guitar_type_code)
+      references Guitar_type (guitar_type_code);
+
+alter table guitar_set
+   add constraint FK_GUITAR_S_RELATIONS_GUITAR_P foreign key (pedal_code)
+      references Guitar_pedal (pedal_code);
+
+alter table guitar_set
+   add constraint FK_GUITAR_S_COMBO_AMP_COMBO_AM foreign key (combo_amp_code)
+      references Combo_amp (combo_amp_code);
+
+alter table guitar_set
+   add constraint FK_GUITAR_S_GUITAR_NA_GUITAR foreign key (guitar_code)
+      references Guitar (guitar_code);
+
+alter table guitar_set
+   add constraint FK_GUITAR_S_NAME_OF_A_ACCESSOR foreign key (accessory_code)
+      references Accessory (accessory_code);
+
+alter table guitar_set
+   add constraint FK_GUITAR_S_NAME_OF_A_GUITAR_A foreign key (cabinet_resistanse)
+      references Guitar_amp (cabinet_resistanse);
+
+alter table guitar_set
+   add constraint FK_GUITAR_S_NAME_OF_C_GUITAR_C foreign key (speaker_resistance)
+      references Guitar_cabinet (speaker_resistance);
+

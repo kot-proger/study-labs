@@ -1,0 +1,86 @@
+domains 
+s = string
+i = integer
+
+facts
+animal(s, s, i)
+
+predicates
+
+nondeterm born(s, i)
+nondeterm die(s, i)
+nondeterm endangered(i)
+nondeterm main_menu
+nondeterm menu(s)
+
+clauses
+
+
+
+born(S, N):-
+	animal(S, A, P),!, 
+	P2 = P + N, 
+	retract(animal(S, A, P)),
+	assert(animal(S, A, P2)), 
+	save("D:/laba4Filp/db.txt"). 
+
+born(_,_):-
+	write("Животное не найдено"), nl.
+
+
+die(S, N):-
+	animal(S, A, P),!,
+	P2 = P - N, 
+	retract(animal(S, A, P)),
+	assert(animal(S, A, P2)),
+	save("D:/laba4Filp/db.txt").
+
+die(_, _):-
+	write("Животное не найдено"), nl.
+	
+
+endangered(N):-
+	animal(S,A, P), 
+	P <= N, 
+	write(S, " ( Ареал: ",A,") - популяция: ",P), nl,
+	fail. 
+
+endangered(_).
+
+
+
+menu("1"):-write("===================="),nl,
+	write("Количество родившихся животных"),nl,
+	write("Животное: "), readln(S),
+	write("Родилось: "), readint(N),
+	born(S,N),
+	main_menu.
+
+menu("2"):- write("===================="),nl,
+	write("Количество умерших животных"),nl,
+	write("Животное: "), readln(S),
+	write("Умерло: "), readint(N),
+	die(S,N),
+	main_menu.
+
+menu("3"):-write("===================="),nl,
+	write("Список вымирающих животных"),nl,
+	write("Введите границу минимальной популяции: "), readint(N),
+	endangered(N),
+	main_menu.
+
+
+menu(_):- main_menu.
+
+
+
+main_menu:-nl,write("Действие:"),nl,
+  	write("1 - Количество родившихся животных"),nl,
+  	write("2 - Количество умерших животных"),nl,
+  	write("3 - Список вымирающих животных"),nl,
+  	readln(R), 
+  	menu(R). 
+
+goal
+
+  consult("D:/laba4Filp/db.txt"),main_menu.

@@ -1,0 +1,9 @@
+Y:\уёба\комп_графика\практ2\prog\prog\prog\obj\Release\prog.Form1.resources
+Y:\уёба\комп_графика\практ2\prog\prog\prog\obj\Release\prog.Properties.Resources.resources
+Y:\уёба\комп_графика\практ2\prog\prog\prog\obj\Release\prog.csproj.GenerateResource.cache
+Y:\уёба\комп_графика\практ2\prog\prog\prog\obj\Release\prog.csproj.CoreCompileInputs.cache
+Y:\уёба\комп_графика\практ2\prog\prog\prog\bin\Release\prog.exe.config
+Y:\уёба\комп_графика\практ2\prog\prog\prog\bin\Release\prog.exe
+Y:\уёба\комп_графика\практ2\prog\prog\prog\bin\Release\prog.pdb
+Y:\уёба\комп_графика\практ2\prog\prog\prog\obj\Release\prog.exe
+Y:\уёба\комп_графика\практ2\prog\prog\prog\obj\Release\prog.pdb

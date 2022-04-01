@@ -1,0 +1,26 @@
+/*****************************************************************************
+
+		Copyright (c) My Company
+
+ Project:  LAB1
+ FileName: LAB1.PRO
+ Purpose: No description
+ Written by: Visual Prolog
+ Comments:
+******************************************************************************/
+
+include "lab1.inc"
+
+predicates
+
+p(integer, integer, integer)
+
+clauses
+
+p(S, _, R) :- S > 6, R = -1, !.
+p(S, _, R) :- S < 0, R = -1, !.
+p(S, N, R):- R = (S + N) mod 7.
+
+goal
+
+p(3, 5, R).
