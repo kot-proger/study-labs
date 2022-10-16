@@ -1,0 +1,55 @@
+; This file is maintained by WHD. Do not modify this file directly.
+;
+; This help project was created with Windows Help Designer V 2.1.7.0
+; Windows Help Designer is copyright (C) 1996, 1998, by Nick Ameladiotis
+; Visit http://www.devgr.com for more informations
+;
+[OPTIONS]
+REPORT=Yes
+ERRORLOG=C:\ANTON\MYHELP\Help10.LOG
+LCID=0x419
+COMPRESS=HIGH
+CONTENTS=C:\ANTON\MYHELP\Help10.CNT
+TITLE=Справочная система: Симплекс-метод
+
+[WINDOWS]
+main="", , 4,(255,255,225),(192,192,192),1  ; 
+
+[FILES]
+Help10.RTF
+
+[MAP]
+Opisanie=0x2
+Menu=0x4
+MenuFile=0x4
+HMFileSave=0x5
+HMFileSaveAs=0x6
+Exit=0x6
+OchOll=0x9
+Pole=0xA
+Perem=0xB
+AddPer=0xC
+DelPerem=0xD
+AddOg=0xE
+DelOg=0xF
+Task=0x10
+Resh=0x11
+ZCel=0x12
+Soder=0x13
+Seek=0x14
+AbProg=0x15
+Vozmozh=0x16
+Prog=0x17
+Big=0x1B
+Vid=0x1E
+Ogranich=0x1F
+Obnulit=0x20
+Help=0x21
+Vcpl=0x22
+ToolBar=0x24
+Summa=0x25
+KC=0x26
+Extr=0x27
+Number=0x28
+OKo=0x29
+Trebovaniy=0x2A

@@ -1,0 +1,87 @@
+
+                        TORA INSTALLATION AND EXECUTION
+
+         The TORA software is written for the IBM/PC/XT/AT and true
+         compatible.  It requires 512K RAM and MS-DOS 3.2 or higher.  The
+         software uses the notation and procedures developed in:
+         TAHA, H., OPERATIONS RESEARCH:AN INTRODUCTION, 6/e, Prentice Hall,
+         1997.
+
+         TORA can be executed from the floppy drive (a: or b:) or from the
+         hard disk (c:).  A hard disk is recommended.
+
+         DISKETTE CONTENTS:
+         readme.doc
+         tora.exe
+         11 example-data files (*.or) taken from OPERATIONS RESEARCH 6/e
+
+         INSTALLATION ON HARD DISK:
+         Make a separate directory named TORA (or any other name of your
+         choice) and copy all the contents of this diskette into the
+         created directory.
+
+         STEP-BY-STEP HARD DISK INSTALLATION:
+         1.  Turn on the computer.
+         2.  Make new directory named TORA:  At the DOS prompt C:>, type
+                 md TORA
+             and press ENTER (or RETURN) key.
+         3.  At the DOS prompt C:>, type
+                 cd TORA
+             and press ENTER.
+         4.  Place the TORA diskette in the 3.5" (or 5.25") drive (A or B).
+         5.  At the DOS prompt C:\TORA>, type
+                 copy a:\TORA\*.*   (if diskette is in drive A)
+                 copy b:\TORA\*.*   (if diskette is in drive B)
+             and press ENTER.
+         6.  The installation is now complete.
+
+         EXECUTION:
+         To execute TORA from the directory in which it is installed, type
+         TORA and then press ENTER.  The software is totally menu driven
+         and hence requires no instruction manual.
+
+         The first time you execute TORA, you will be asked if you are
+         using a color monitor.  The answer to this question (y or n) is
+         automatically stored in the TORA working directory in a file named
+         COLOR.COD.  If you wish to change the color mode, simply erase the
+         file COLOR.COD by using the DOS command ERASE COLOR.COD.
+
+         TESTING:
+         TORA has a total of 8 modules:
+
+           Linear programming
+           Transportation
+           Networks
+           Integer programming
+           Queueing
+           Histogramming/forecasting
+           Inventory
+
+         Each module (with the exception of INVENTORY) has one or more
+         example models stored in files with obvious descriptive names
+         suffixed with .OR (e.g., LP.OR is a linear programming model).
+         All the examples are taken from the textbook.  These files follow
+         a special format created by the TORA editor and may be accessed by
+         entering the file name at the proper prompt from TORA.  The list
+         of file names may also be accessed by entering *.OR for the file
+         name or simply by pressing ENTER.  In this case, a directory will
+         be displayed and the desired file is chosen by moving the reverse
+         video bar to the proper location and then pressing ENTER.  All
+         modules accept the entry of new problems through the use of a
+         custom-tailored editor.  The commands of the special editor will
+         be displayed at the top of the edit screen at all times during the
+         editing session.
+
+         COMMENTS AND INQUIRIES:
+         If you have any comments or questions about this software, please
+         direct them to the author at the address below:
+
+         Dr. Hamdy A. Taha
+         Bell 4207
+         Department of Industrial Engineering
+         University of Arkansas
+         Fayetteville, AR 72701  USA
+         Tel: (501) 575-6031
+         Fax: (501) 575-8431
+         e-mail: hat@engr.uark.edu
+

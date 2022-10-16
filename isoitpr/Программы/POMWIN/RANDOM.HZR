@@ -1,0 +1,54 @@
+         TABLE S5.4 Table of Random Numbers. (hR)
+         25,18
+         52 06     50   88   53   30   10   47   99   37   66   91   35   32   00   84   57   07
+         37 63     28   02   74   35   24   03   29   60   74   85   90   73   59   55   17   60
+         82 57     68   28   05   94   03   11   27   79   90   87   92   41   09   25   36   77
+         69 02     36   49   71   99   32   10   75   21   95   90   94   38   97   71   72   49
+         98 94     90   36   06   78   23   67   89   85   29   21   25   73   69   34   85   76
+         96 52     62   87   49   56   59   23   78   71   72   90   57   01   98   57   31   95
+         33 69     27   21   11   60   95   89   68   48   17   89   34   09   93   50   44   51
+         50 33     50   95   13   44   34   62   64   39   55   29   30   64   49   44   30   16
+         ~8 32     18   50   62   57   34   56   62   31   15   40   90   34   51   95   26   14
+         90 30     36   24   69   82   51   74   30   35   36   85   01   55   92   64   09   85
+         50 48     61   18   85   23   08   ~4   17   12   80   69   24   84   92   16   49   59
+         27 88     21   62   69   64   48   31   12   73   02   68   00   16   16   46   13   85
+         45 14     46   32   13   49   66   62   74   41   86   98   92   98   84   54   33   40
+         81 02     01   78   82   74   97   37   45   31   94   99   42   49   27   64   89   42
+         66 83     14   74   27   76   03   33   11   97   59   81   72   00   64   61   13   52
+         74 05     81   82   93   09   96   33   52   78   13   06   28   30   94   23   37   39
+         30 34     87   01   74   11   46   82   59   94   25   34   32   23   17   01   58   73
+         59 55     72   33   62   13   74   68   22   44   42   09   32   46   71   79   45   89
+         67 09     80   98   99   25   77   50   03   32   36   63   65   75   94   19   95   88
+         60 77     46   63   71   69   44   22   03   85   14   48   69   13   30   50   33   24
+         60 08     19   29   36   72   30   27   50   64   85   72   75   29   87   05   75   01
+         80 45     86   99   02   34   87   08   86   84   49   76   24   08   01   86   29   11
+         ;3 84     49   63   26   65   72   84   85   63   26   02   75   26   92   62   40   67
+         69 84     12   94   51   36   17   02   15   29   16   52   56   43   26   22   08   62
+         37 77     13   10   02   18   31   19   32   85   31   94   81   43   31   58   33   51
+         
+         source: Excerpted from A Million Random Digits with 100,000 Normal Devlates, The Free Press,1955, p. 7, with permission oi the
+         Rand Corporation.
+         
+         might expect, the computer can be a very helpful tool in carrying out the tedious
+         work in larger simulation undertakings.
+         
+         SII~IUIATION OF A QUEUING PROBLEM
+         
+         An important area of simulation application has been in the analysis of waiting
+         line problems. As mentioned in Chapter 5, the assumptions required for solving
+         queuing problems analytically are quite restrictive. For most realistic queuing
+         systems, simulation may actuallv be the only approach available.
+         This section illustrates the simulation at a large unloading dock and its asso-
+         ciated queue. Arrivals of barges at the dock are not Poisson distributed, and
+         unloading rates (service times) are not exponential or constant. As such, the
+         mathematical waitin~ line models of Chapter 5 cannot be used.
+         
+         Example S2
+         Fully loaded barges arrive at night in New Orleans following their long trips down
+         the Mississippi River from industrial midwestern cities. The number of barges
+         docking on any given night ranges from 0 to 5. The probability of 0, 1, 2, 3, 4,
+         and 5 arrivals is displayed in Table S5. 5. In the same table, we establish cumulative
+         probabilities and corresponding random number intervals for each possible value.
+         A study by the dock superintendent reveals that because of the nature of their
+         car~o, the number of barges unloaded also tends to vary from day to day. The
+         

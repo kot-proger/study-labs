@@ -1,0 +1,229 @@
+*** Installation Started 8/14/7 15:08 ***
+Title: Prentice Hall/Weiss Program Installation
+Source: F:\POMWIN\POMDEMO.EXE
+Made Dir: C:\Program Files\POMWIN
+File Copy: C:\Program Files\POMWIN\Phweb.htm
+File Copy: C:\Program Files\POMWIN\Normal.hlp
+File Copy: C:\Program Files\POMWIN\Normal.exe
+File Copy: C:\Program Files\POMWIN\pomwin.exe
+File Copy: C:\Program Files\POMWIN\pomwin.hlp
+File Copy: C:\Program Files\POMWIN\pomSTART.EXE
+File Copy: C:\Program Files\POMWIN\README.TXT
+File Copy: C:\Program Files\POMWIN\SQCDATA.TXT
+File Copy: C:\Program Files\POMWIN\RANDOM.HZR
+File Copy: C:\Program Files\POMWIN\RANDOM.RSL
+File Copy: C:\Program Files\POMWIN\ssdata2.vbx
+File Copy: C:\Program Files\POMWIN\VBRUN300.DLL
+File Copy: C:\Program Files\POMWIN\msoutlin.vbx
+File Copy: C:\Program Files\POMWIN\PICCLIP.VBX
+File Copy: C:\Program Files\POMWIN\cmdialog.vbx
+File Copy: C:\Program Files\POMWIN\threed.vbx
+File Copy: C:\Program Files\POMWIN\UNWISE.EXE
+Made Dir: C:\Documents and Settings\ADMIN\Start Menu\Programs\POM for Windows
+Shell Link: C:\Documents and Settings\ADMIN\Start Menu\Programs\POM for Windows\POM for Windows.lnk
+Shell Link: C:\Documents and Settings\ADMIN\Start Menu\Programs\POM for Windows\POM for Windows Help.lnk
+Shell Link: C:\Documents and Settings\ADMIN\Start Menu\Programs\POM for Windows\Readme.lnk
+Shell Link: C:\Documents and Settings\ADMIN\Start Menu\Programs\POM for Windows\Normal Calculator.lnk
+Shell Link: C:\Documents and Settings\ADMIN\Start Menu\Programs\POM for Windows\Normal Help.lnk
+Shell Link: C:\Documents and Settings\ADMIN\Start Menu\Programs\POM for Windows\Prentice Hall Web Site Gateway.lnk
+Shell Link: C:\Documents and Settings\ADMIN\Desktop\POM for Windows.lnk
+Made Dir: C:\Program Files\POMWIN\BACKUP
+File Copy: C:\PROGRA~1\POMWIN\UNWISE.EXE
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\POM for Windows
+RegDB Val: POM for Windows
+RegDB Name: DisplayName
+RegDB Root: 2
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\POM for Windows
+RegDB Val: C:\PROGRA~1\POMWIN\UNWISE.EXE C:\PROGRA~1\POMWIN\INSTALL.LOG
+RegDB Name: UninstallString
+RegDB Root: 2
+INI New: Created INI
+INI File: C:\PROGRA~1\POMWIN\POMwin.INI
+INI Sect: Registration
+INI Item: Username
+INI Val: Lab - komputer
+INI File: C:\PROGRA~1\POMWIN\POMwin.INI
+INI Sect: Registration
+INI Item: University
+INI Val: fti - umb
+INI File: C:\PROGRA~1\POMWIN\POMwin.INI
+INI Sect: Registration
+INI Item: Professor
+INI Val: 
+INI File: C:\PROGRA~1\POMWIN\POMwin.INI
+INI Sect: Registration
+INI Item: Course
+INI Val: 
+INI File: C:\PROGRA~1\POMWIN\POMwin.INI
+INI Sect: Registration
+INI Item: User type 
+INI Val:  Student
+INI File: C:\PROGRA~1\POMWIN\POMwin.INI
+INI Sect: Registration
+INI Item: Bookname
+INI Val: Any POM Textbook
+INI File: C:\PROGRA~1\POMWIN\POMwin.INI
+INI Sect: Registration
+INI Item: booknumber
+INI Val: 1
+RegDB Key: .agg
+RegDB Val: Pomwin.Document
+RegDB Key: Pomwin.Document
+RegDB Val: Pomwin Document
+RegDB Key: Pomwin.Document\shell\open\command
+RegDB Val: C:\PROGRA~1\POMWIN\Pomwin.exe %1
+RegDB Key: .ass
+RegDB Val: Pomwin.Document
+RegDB Key: Pomwin.Document
+RegDB Val: Pomwin Document
+RegDB Old: Pomwin Document
+RegDB Key: Pomwin.Document\shell\open\command
+RegDB Val: C:\PROGRA~1\POMWIN\Pomwin.exe %1
+RegDB Old: C:\PROGRA~1\POMWIN\Pomwin.exe %1
+RegDB Key: .bal
+RegDB Val: Pomwin.Document
+RegDB Key: Pomwin.Document
+RegDB Val: Pomwin Document
+RegDB Old: Pomwin Document
+RegDB Key: Pomwin.Document\shell\open\command
+RegDB Val: C:\PROGRA~1\POMWIN\Pomwin.exe %1
+RegDB Old: C:\PROGRA~1\POMWIN\Pomwin.exe %1
+RegDB Key: .bre
+RegDB Val: Pomwin.Document
+RegDB Key: Pomwin.Document
+RegDB Val: Pomwin Document
+RegDB Old: Pomwin Document
+RegDB Key: Pomwin.Document\shell\open\command
+RegDB Val: C:\PROGRA~1\POMWIN\Pomwin.exe %1
+RegDB Old: C:\PROGRA~1\POMWIN\Pomwin.exe %1
+RegDB Key: .dec
+RegDB Val: Pomwin.Document
+RegDB Key: Pomwin.Document
+RegDB Val: Pomwin Document
+RegDB Old: Pomwin Document
+RegDB Key: Pomwin.Document\shell\open\command
+RegDB Val: C:\PROGRA~1\POMWIN\Pomwin.exe %1
+RegDB Old: C:\PROGRA~1\POMWIN\Pomwin.exe %1
+RegDB Key: .for
+RegDB Val: Pomwin.Document
+RegDB Key: Pomwin.Document
+RegDB Val: Pomwin Document
+RegDB Old: Pomwin Document
+RegDB Key: Pomwin.Document\shell\open\command
+RegDB Val: C:\PROGRA~1\POMWIN\Pomwin.exe %1
+RegDB Old: C:\PROGRA~1\POMWIN\Pomwin.exe %1
+RegDB Key: .inv
+RegDB Val: Pomwin.Document
+RegDB Key: Pomwin.Document
+RegDB Val: Pomwin Document
+RegDB Old: Pomwin Document
+RegDB Key: Pomwin.Document\shell\open\command
+RegDB Val: C:\PROGRA~1\POMWIN\Pomwin.exe %1
+RegDB Old: C:\PROGRA~1\POMWIN\Pomwin.exe %1
+RegDB Key: .job
+RegDB Val: Pomwin.Document
+RegDB Old: JobObject
+RegDB Key: Pomwin.Document
+RegDB Val: Pomwin Document
+RegDB Old: Pomwin Document
+RegDB Key: Pomwin.Document\shell\open\command
+RegDB Val: C:\PROGRA~1\POMWIN\Pomwin.exe %1
+RegDB Old: C:\PROGRA~1\POMWIN\Pomwin.exe %1
+RegDB Key: .lea
+RegDB Val: Pomwin.Document
+RegDB Key: Pomwin.Document
+RegDB Val: Pomwin Document
+RegDB Old: Pomwin Document
+RegDB Key: Pomwin.Document\shell\open\command
+RegDB Val: C:\PROGRA~1\POMWIN\Pomwin.exe %1
+RegDB Old: C:\PROGRA~1\POMWIN\Pomwin.exe %1
+RegDB Key: .lin
+RegDB Val: Pomwin.Document
+RegDB Old: AutoCADLinetypeDefinition
+RegDB Key: Pomwin.Document
+RegDB Val: Pomwin Document
+RegDB Old: Pomwin Document
+RegDB Key: Pomwin.Document\shell\open\command
+RegDB Val: C:\PROGRA~1\POMWIN\Pomwin.exe %1
+RegDB Old: C:\PROGRA~1\POMWIN\Pomwin.exe %1
+RegDB Key: .loc
+RegDB Val: Pomwin.Document
+RegDB Key: Pomwin.Document
+RegDB Val: Pomwin Document
+RegDB Old: Pomwin Document
+RegDB Key: Pomwin.Document\shell\open\command
+RegDB Val: C:\PROGRA~1\POMWIN\Pomwin.exe %1
+RegDB Old: C:\PROGRA~1\POMWIN\Pomwin.exe %1
+RegDB Key: .lot
+RegDB Val: Pomwin.Document
+RegDB Key: Pomwin.Document
+RegDB Val: Pomwin Document
+RegDB Old: Pomwin Document
+RegDB Key: Pomwin.Document\shell\open\command
+RegDB Val: C:\PROGRA~1\POMWIN\Pomwin.exe %1
+RegDB Old: C:\PROGRA~1\POMWIN\Pomwin.exe %1
+RegDB Key: .mat
+RegDB Val: Pomwin.Document
+RegDB Old: Access.Shortcut.Table.1
+RegDB Key: Pomwin.Document
+RegDB Val: Pomwin Document
+RegDB Old: Pomwin Document
+RegDB Key: Pomwin.Document\shell\open\command
+RegDB Val: C:\PROGRA~1\POMWIN\Pomwin.exe %1
+RegDB Old: C:\PROGRA~1\POMWIN\Pomwin.exe %1
+RegDB Key: .ope
+RegDB Val: Pomwin.Document
+RegDB Key: Pomwin.Document
+RegDB Val: Pomwin Document
+RegDB Old: Pomwin Document
+RegDB Key: Pomwin.Document\shell\open\command
+RegDB Val: C:\PROGRA~1\POMWIN\Pomwin.exe %1
+RegDB Old: C:\PROGRA~1\POMWIN\Pomwin.exe %1
+RegDB Key: .pro
+RegDB Val: Pomwin.Document
+RegDB Key: Pomwin.Document
+RegDB Val: Pomwin Document
+RegDB Old: Pomwin Document
+RegDB Key: Pomwin.Document\shell\open\command
+RegDB Val: C:\PROGRA~1\POMWIN\Pomwin.exe %1
+RegDB Old: C:\PROGRA~1\POMWIN\Pomwin.exe %1
+RegDB Key: .qua
+RegDB Val: Pomwin.Document
+RegDB Key: Pomwin.Document
+RegDB Val: Pomwin Document
+RegDB Old: Pomwin Document
+RegDB Key: Pomwin.Document\shell\open\command
+RegDB Val: C:\PROGRA~1\POMWIN\Pomwin.exe %1
+RegDB Old: C:\PROGRA~1\POMWIN\Pomwin.exe %1
+RegDB Key: .rel
+RegDB Val: Pomwin.Document
+RegDB Key: Pomwin.Document
+RegDB Val: Pomwin Document
+RegDB Old: Pomwin Document
+RegDB Key: Pomwin.Document\shell\open\command
+RegDB Val: C:\PROGRA~1\POMWIN\Pomwin.exe %1
+RegDB Old: C:\PROGRA~1\POMWIN\Pomwin.exe %1
+RegDB Key: .sim
+RegDB Val: Pomwin.Document
+RegDB Key: Pomwin.Document
+RegDB Val: Pomwin Document
+RegDB Old: Pomwin Document
+RegDB Key: Pomwin.Document\shell\open\command
+RegDB Val: C:\PROGRA~1\POMWIN\Pomwin.exe %1
+RegDB Old: C:\PROGRA~1\POMWIN\Pomwin.exe %1
+RegDB Key: .tra
+RegDB Val: Pomwin.Document
+RegDB Key: Pomwin.Document
+RegDB Val: Pomwin Document
+RegDB Old: Pomwin Document
+RegDB Key: Pomwin.Document\shell\open\command
+RegDB Val: C:\PROGRA~1\POMWIN\Pomwin.exe %1
+RegDB Old: C:\PROGRA~1\POMWIN\Pomwin.exe %1
+RegDB Key: .wai
+RegDB Val: Pomwin.Document
+RegDB Key: Pomwin.Document
+RegDB Val: Pomwin Document
+RegDB Old: Pomwin Document
+RegDB Key: Pomwin.Document\shell\open\command
+RegDB Val: C:\PROGRA~1\POMWIN\Pomwin.exe %1
+RegDB Old: C:\PROGRA~1\POMWIN\Pomwin.exe %1
